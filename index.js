@@ -1,8 +1,11 @@
 require("dotenv").config();
 
+
 const express = require('express');
 
 const app = express();
+
+app.use(express.json());
 
 app.get(
   "/api/v1/restaurants", (req, res) => {
@@ -17,15 +20,16 @@ app.get(
 
 app.get("/api/v1/restaurants/:id", (req, res) => {
    console.log(req.params);
-   res.status(200).json({
-     meow: "meow"
-   })
-  }
+}
 )
 
 app.post("/api/v1/restaurants/", (req, res) => {
-  console.log(req)
+  console.log(req.body)
   
+})
+
+app.put("/api/v1/restaurants/:id", (req, res) => {
+  console.log(req.params.id)
 })
 
 const port =  process.env.PORT || 3001;
