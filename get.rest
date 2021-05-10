@@ -1,0 +1,9 @@
+
+POST http://localhost:4000/api/v1/restaurants/
+Content-Type: application/json
+
+{
+  "name": "taco bell",
+  "location": "New York",
+  "price_range": 4
+}
