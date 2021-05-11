@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/v1/restaurants/1
+Content-Type: application/json
+
+{
+  "name": "tacong bell",
+  "location": "New York",
+  "price_range": 4
+}
+
