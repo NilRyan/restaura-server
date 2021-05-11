@@ -1,5 +1,5 @@
 
-POST http://localhost:4000/api/v1/restaurants/
+POST http://localhost:3001/api/v1/restaurants/
 Content-Type: application/json
 
 {
@@ -7,3 +7,5 @@ Content-Type: application/json
   "location": "New York",
   "price_range": 4
 }
+
+
