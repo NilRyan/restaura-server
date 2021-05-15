@@ -2,4 +2,4 @@ GET http://localhost:3001/api/v1/restaurants/
 
 
 
-GET http://localhost:3001/api/v1/restaurants/1
+GET http://localhost:3001/api/v1/restaurants/10

@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/v1/restaurants/10/addReview
+Content-Type: application/json
+
+{
+  "name": "Neil",
+  "review": "Good, VERY GOOD",
+  "rating": 1
+}
