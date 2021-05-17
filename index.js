@@ -7,7 +7,10 @@ const db = require('./db');
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://restaurant-rating.netlify.app",
+}));
+
 app.use(express.json());
 
 app.get("/api/v1/restaurants", async (req, res) => {
