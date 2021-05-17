@@ -1,4 +1,4 @@
-GET http://localhost:3001/api/v1/restaurants/
+GET https://restaura-server.herokuapp.com//api/v1/restaurants/
 
 
 
